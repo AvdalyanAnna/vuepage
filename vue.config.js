@@ -1,7 +1,5 @@
 module.exports = {
-  publicPath: process.env.NODE_ENV === 'production'
-    ? '/'
-    : '/',
+  publicPath: '/vuepage/',
   assetsDir: '',
   productionSourceMap: false,
   filenameHashing: true
